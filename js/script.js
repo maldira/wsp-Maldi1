@@ -16,7 +16,7 @@ const fetchHeader = {
 };
 
 function getListTeams() {
-    title.innerHTML = "Daftar Tim Liga Primer Inggris"
+    title.innerHTML = "Daftar Tim Liga Premier Inggris"
     fetch(teamEndPoin, fetchHeader)
         .then(response => response.json())
         .then(resJson => {
